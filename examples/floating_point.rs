@@ -33,7 +33,6 @@ fn main() {
     // 부호 비트
     let sign_bit = n_bits >> 31;
     println!("sign_bit : {:032b}", sign_bit);
-    // result
     // sign_bit : 00000000000000000000000000000000
 
     let exponent_ = n_bits >> 23;
